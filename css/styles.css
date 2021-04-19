@@ -1,11 +1,24 @@
 body {
-
+    font-family: 'Crimson Text', serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Bitter', serif;
+    font-family: 'Crimson Pro', serif;
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(231, 179, 7, 0.753), rgba(236, 221, 7, 0.65))
+    background: linear-gradient(rgba(248, 193, 14, 0.50), rgba(102, 99, 67, 0.3)), url("../img/daisy_coaster.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title {
+    margin: 30vh, 100vw;
+}
+
+footer {
+    background: linear-gradient(rgba(248, 193, 14, 0.50), rgba(102, 99, 67, 0.3));
 }
